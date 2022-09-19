@@ -1,0 +1,290 @@
+
+.naviBar{
+  margin-top: 50px;
+margin-left: 70%;
+
+
+
+}
+
+.navigation-bar{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+
+ul.navigation-bar{
+  color: #F08080;;
+  font-size: 50px;
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+}
+
+a  {
+  color:#F08080;
+  text-decoration: none;
+  font-size: 20px;
+  display: inline;
+
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+font-size:30px;
+color:#F08080;
+margin-top: 70px;
+}
+
+
+h3.topheader{
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+color:#F08080;
+letter-spacing: 1px;
+font-weight: normal;
+}
+
+.computer{
+  width: 35%;
+  padding-top: 4%;
+  }
+
+
+h3{
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  letter-spacing: 2px;
+  color: #F08080;
+  font-size: 1.3rem;
+  font-weight:bold;
+  margin-bottom: 0;
+
+
+}
+body{
+  margin:0;
+  text-align:center;
+}
+
+
+
+p {
+  font-size: 1.3rem;
+margin-top: 17px;
+line-height: 2;
+font-weight:normal;
+}
+a:hover{
+  color:rosybrown;
+}
+
+hr {
+  border-style: dotted none none none;
+  width:6%;
+  color:#F08080;
+  border-width:10px;
+
+}
+.top-container  {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 0;;
+}
+.profile  {
+  margin-bottom: 70px;
+}
+
+.skills  {
+  margin-top: 80px;
+}
+.middle-container  {
+  margin-top: 0px;
+  margin-bottom: 70px;
+  padding-bottom: 25px;
+  background-color: #FFF0F5;
+
+}
+.skill-row {
+
+  width:50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+
+}
+
+
+.comskill {
+  width:20%;
+  float: left;
+ margin-right:40px;
+}
+
+.math{
+  width:20%;
+  float: right;
+  margin-left: 35px;
+}
+
+.welmass{
+  font-family: 'Oswald', sans-serif;
+color:#F08080;
+letter-spacing: 1px;
+font-weight: normal;
+  padding-top: 4%;
+  width:50%;
+  margin:auto;
+  padding-bottom: 2%;
+
+  
+}
+.mybio{
+ 
+padding-bottom: 2%;
+  width:30%;
+  margin:auto;
+}
+
+
+
+.myHeadPort{
+font-size: 30px;
+margin:auto;
+padding-top:10px;
+padding-bottom: 60px;
+}
+
+
+.btn {
+   background: #F08080;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+    font-family: 'Dancing Script', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 12px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+   margin-left: 85px;
+ 
+}
+
+.bottom-container{
+  background-color: #FFF0F5;
+padding: 65px 0 40px 0;
+
+}
+
+.footer{
+    font-family: 'Dancing Script', sans-serif;
+  color:#F08080;
+  font-size:15px;
+  margin-top:40px;
+}
+
+.footer-link{
+    font-family: 'Dancing Script', sans-serif;
+  margin:auto 25px auto 25px;
+  font-size: 20px;
+  color:#F08080;
+  text-decoration: none;
+}
+.portfolio{
+  display:grid;
+grid-template-columns: auto auto;
+width: 50%;
+margin: auto;
+
+
+}
+.myWork_item{
+  overflow: hidden;
+ margin:25px 15px 25px 15px;
+}
+
+.myWork{
+  transition: transform 750ms cubic-bezier(.5,0,.5,1), opacity 250ms linear;
+  
+}
+
+
+#myworknavi{
+
+  padding-bottom: 3%;
+}
+.myWork:hover{
+  transform: scale(1.2);
+  opacity: 0.75;
+}
+
+
+input[type=text] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  
+}
+input[type=email] {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+
+label.textare{
+position:relative;
+bottom:90px;
+left:9px
+ 
+}
+
+button{
+  width: 20%;
+  background-color: #F08080;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rosybrown;
+}
+
+.contactsec {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  background-color:white;
+  padding: 20px;
+}
+
