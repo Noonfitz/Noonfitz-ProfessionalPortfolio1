@@ -1,33 +1,38 @@
-
-.naviBar{
-  margin-top: 50px;
-margin-left: 70%;
-
-
-
+*{
+  box-sizing: border-box;
 }
 
-.navigation-bar{
-  margin-left: 15px;
-  margin-right: 15px;
+ul{
+  position:fixed;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFF0F5;
+  list-style-type: none;
+  width: 100%;
+  z-index: 1;
 }
 
+li {
+  float: right;
 
-ul.navigation-bar{
-  color: #F08080;;
-  font-size: 50px;
+}
+li a{
   display: block;
-  padding: 8px;
+  color: #F08080;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 18px;
+  font-family: 'Dancing Script', sans-serif;
 }
 
-a  {
-  color:#F08080;
-  text-decoration: none;
-  font-size: 20px;
-  display: inline;
-
+li a:hover{
+  color:black;
 }
+
+
 
 h2{
   font-family: 'Oswald', sans-serif;
@@ -92,7 +97,6 @@ hr {
 .top-container  {
   position: relative;
   padding-top: 40px;
-  padding-bottom: 0;;
 }
 .profile  {
   margin-bottom: 70px;
@@ -111,7 +115,7 @@ hr {
 .skill-row {
 
   width:50%;
-  margin:100px auto 100px auto;
+  margin:100px auto;
   text-align: left;
 
 }
@@ -120,7 +124,7 @@ hr {
 .comskill {
   width:20%;
   float: left;
- margin-right:40px;
+  margin-right:40px;
 }
 
 .math{
@@ -130,14 +134,13 @@ hr {
 }
 
 .welmass{
-  font-family: 'Oswald', sans-serif;
+font-family: 'Oswald', sans-serif;
 color:#F08080;
 letter-spacing: 1px;
 font-weight: normal;
-  padding-top: 4%;
-  width:50%;
-  margin:auto;
-  padding-bottom: 2%;
+font-size:27px;
+margin:auto;
+padding: 3% 0%;
 
   
 }
@@ -153,8 +156,7 @@ padding-bottom: 2%;
 .myHeadPort{
 font-size: 30px;
 margin:auto;
-padding-top:10px;
-padding-bottom: 60px;
+padding-bottom:  50px;
 }
 
 
@@ -172,86 +174,73 @@ padding-bottom: 60px;
    display: inline-block;
    cursor: pointer;
    text-align: center;
-   margin-top: 20px;
-   margin-left: 85px;
- 
+  
 }
 
-.bottom-container{
-  background-color: #FFF0F5;
-padding: 65px 0 40px 0;
 
-}
-
-.footer{
-    font-family: 'Dancing Script', sans-serif;
-  color:#F08080;
-  font-size:15px;
-  margin-top:40px;
-}
-
-.footer-link{
-    font-family: 'Dancing Script', sans-serif;
-  margin:auto 25px auto 25px;
-  font-size: 20px;
-  color:#F08080;
-  text-decoration: none;
-}
 .portfolio{
   display:grid;
 grid-template-columns: auto auto;
 width: 50%;
 margin: auto;
-
-
 }
 .myWork_item{
   overflow: hidden;
- margin:25px 15px 25px 15px;
+  margin:25px 15px;
+
+/*display:inline-block*/
 }
 
 .myWork{
   transition: transform 750ms cubic-bezier(.5,0,.5,1), opacity 250ms linear;
-  
 }
 
 
-#myworknavi{
-
+#myworkContent{
   padding-bottom: 3%;
+
 }
+@media screen and (max-width: 1000px) {
+  #myworkContent{
+    display: block;
+   width: 100%;
+ 
+  }
+  } 
 .myWork:hover{
   transform: scale(1.2);
   opacity: 0.75;
 }
 
 
+
+
 input[type=text] {
-  width: 20%;
+  width: 60%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline;
-  border: 1px solid #ccc;
+  border: 1px solid #F08080;
   border-radius: 4px;
   box-sizing: border-box;
   
 }
 input[type=email] {
-  width: 20%;
+  width: 60%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline;
-  border: 1px solid #ccc;
+  border: 1px solid #F08080;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
 textarea{
-  width: 20%;
+  width: 60%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline;
-  border: 1px solid #ccc;
+  border: 1px solid #F08080;
   border-radius: 4px;
   box-sizing: border-box;
   margin-left: 10px;
@@ -265,11 +254,11 @@ left:9px
 }
 
 button{
-  width: 20%;
+  width: 30%;
   background-color: #F08080;
   color: white;
   padding: 14px 20px;
-  margin: 8px 0;
+  margin: 8px 50px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -286,5 +275,37 @@ button:hover {
   border-radius: 5px;
   background-color:white;
   padding: 20px;
+
 }
 
+div .border-contact{
+  width: 30%;
+  position: relative;
+  left:35%
+}
+.border-contact{
+  border: 1.5px solid #F08080;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.bottom-container{
+  background-color: #FFF0F5;
+  padding: 55px 0px;
+
+}
+
+.footer{
+    font-family: 'Dancing Script', sans-serif;
+  color:#F08080;
+  font-size:15px;
+  margin-top:40px;
+}
+
+.footer-link{
+    font-family: 'Dancing Script', sans-serif;
+  margin:auto 25px;
+  font-size: 20px;
+  color:#F08080;
+  text-decoration: none;
+}
