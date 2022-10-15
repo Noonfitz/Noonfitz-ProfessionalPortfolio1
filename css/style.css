@@ -138,7 +138,6 @@ padding-bottom: 2%;
 }
 
 .skill-row {
-
   width:50%;
   margin:100px auto;
   text-align: left;
@@ -383,5 +382,13 @@ div .border-contact{
         padding: 15px;
         border-radius: 15px;
       }
+
+      .mybio{
+          width:75%;
+      }
     
+      .computer{
+        width: 70%;
+        padding-top: 4%;
+        }
 } 
